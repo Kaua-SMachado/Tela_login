@@ -46,7 +46,7 @@ section{
 main section div h1{
     text-align: center;
     margin-top: .8em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     text-transform: capitalize;
     font-size: 2em;
     font-weight: normal;
@@ -68,7 +68,7 @@ input#email::placeholder, input#senha::placeholder{
 }
 
 label{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     text-transform: capitalize;
     font-weight: 500;
 }
