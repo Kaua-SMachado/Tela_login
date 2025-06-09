@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+input#nome{
+    border-radius: 1em;
+    width: 80%;
+    height: 2.2em;
+    padding-left: 10px;
+    text-transform: capitalize;
+}

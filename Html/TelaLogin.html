@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Todos.css">
+    <link rel="stylesheet" href="../css/TelaLogin.css">
     <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
     <title>Veridas</title>
 </head>
@@ -26,19 +27,21 @@
                 </div>
                 <div>
                     <input type="checkbox" name="lembrar" class="lembrar">
-                    <label class="lembrar" for="lembrar">Lembre-se de mim</label>
+                    <label for="lembrar">Lembre-se de mim</label>
                 </div>
                 <div>
-                    <input type="submit" value="Entrar" class="bnt">
-                    <input type="button" value="Cadastrar" class="bnt">
+                    <input type="button" value="Entrar" class="bnt" onclick="entrar()">
+                    <input type="button" value="Cadastrar" class="bnt" onclick="cadastrar()">
                 </div>
                 <div>
-                    <span id="esquecido">Esqueceu a Senha? <a href="">Clique Aqui!</a></span>
+                    <span id="esquecido">Esqueceu a Senha? <a href="NovaSenha.html">Clique Aqui!</a></span>
                 </div>
             </form>
         </section>
     </main>
 
+    <script src="../javascript/cadastrar.js"></script>
+    <script src="../javascript/entrar.js"></script>
         <!--Criado pela DevineWeb-->
 </body>
 </html>
