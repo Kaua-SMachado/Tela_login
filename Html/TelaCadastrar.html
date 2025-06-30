@@ -25,18 +25,22 @@
                 </div>
 
                 <div>
-                    <input type="email" name="email" id="email" placeholder="Seu Melhor E-Mail">
+                    <input type="email" name="email" id="emailCadastro" placeholder="Seu Melhor E-Mail">
                 </div>
 
                 <div>
-                    <input type="password" name="senha" id="senha" placeholder="Escolha Sua Senha">
+                    <input type="password" name="senha" id="senhaCadastro" placeholder="Escolha Sua Senha">
                 </div>
 
                 <div>
-                    <input type="button" value="Enviar" class="bnt">
+                    <input type="button" value="Enviar" class="bnt" onclick="enviar(); return false">
+
+                    <p id="teste">Teste</p>
                 </div>
             </form>
         </section>
     </main>
+
+    <script src="../javascript/cadastrar.js"></script>
 </body>
 </html>

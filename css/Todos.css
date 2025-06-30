@@ -58,7 +58,7 @@ main section div{
     margin-bottom: 1.3em;
 }
 
-input#email, input#senha{
+input#email, input#senha, input#emailCadastro, input#senhaCadastro{
     border-radius: 1em;
     width: 80%;
     height: 2.2em;
